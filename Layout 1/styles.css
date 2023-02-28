@@ -26,12 +26,14 @@ body{
 }
 .news>h1{
     width: 100%;
+    position: relative;
+    bottom:18px;
     display: flex; 
     justify-content:center; 
     background-color: #00154E; 
     color: antiquewhite; 
-    font-size: 25px; 
-    font-family: Arial, Georgia, Times, serif; 
+    font-size: 20px; 
+    font-family: Poppins; 
     padding: 5px 0;
 }
 @media screen and (max-width:1213px) {
@@ -55,10 +57,10 @@ body{
 }
 .newslist>li{
     margin: 10px 0;
-    padding: 0 3px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .newslist>li>a{
+    color: #00154E;
     text-decoration: none;
 }
 @media screen and (max-width:608px) {
