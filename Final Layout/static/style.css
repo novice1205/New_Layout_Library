@@ -20,7 +20,8 @@ body {
     color: antiquewhite;
     background-color: wheat;
     /*background-color: rgba(177, 73, 73, 0.918);*/
-    padding: 10px 0;
+    padding: 0px 0;
+    justify-content: space-between;
 }
 
 .navbar-nav {
@@ -44,7 +45,9 @@ body {
 
 #logo2 {
     height: 100px;
-    justify-content: left;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
 }
 
 #lib-logo {
@@ -57,6 +60,7 @@ body {
 .logo-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 15px 10px;
 }
 
@@ -66,14 +70,29 @@ body {
     margin: 15px 10px;
 }
 
+.logo-right{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
 @media screen and (max-width:655px) {
     .top-bar {
         display: block;
-        height: 350px;
+        height: 410px;
         margin: -15px 0;
+    }
+    .logo-content{
+        display: block;
+        text-align: center;
+        justify-content: center;
     }
     #lib-logo{
         font-size: 27px;
+    }
+    #logo,#logo2{
+        justify-content: center;
+        margin: auto;
     }
 }
 
