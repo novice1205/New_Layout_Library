@@ -22,6 +22,7 @@ body {
     /*background-color: rgba(177, 73, 73, 0.918);*/
     padding: 0px 0;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .navbar-nav {
@@ -52,7 +53,7 @@ body {
 
 #g20logo{
     height: 150px;
-    margin: 0 15px;
+    margin: 0 -60px;
 }
 
 #lib-logo {
